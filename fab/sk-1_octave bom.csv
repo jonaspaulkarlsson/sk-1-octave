@@ -1,0 +1,8 @@
+Ref,Qnty,Value,Footprint,Description
+"C1, ",1,10p,0603,Ceramic capacitor
+"C2, C3, C4, C5, C6, ",5,100n,0603,Ceramic capacitor
+"R1, R2, R4, ",3,4k7,0603,Resistor
+"R3, ",1,1k5,0603,Resistor
+"U1, ",1,CD4069UBM,SOIC-14,Hex inverter
+"U2, ",1,SN74HC74DR,SOIC-14,"Dual D Flip-flop, Set & Reset"
+"U3, ",1,SN74HC157DR,SOIC-16,Quad 2 to 1 line Multiplexer
