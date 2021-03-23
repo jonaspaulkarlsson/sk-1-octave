@@ -61,7 +61,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x010fc_ffffffff)
+      (layerselection 0x010e8_ffffffff)
       (usegerberextensions false)
       (usegerberattributes true)
       (usegerberadvancedattributes true)
@@ -84,9 +84,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "C:/Projekt/sk-1-octave/fab/"))
   )
 
   (net 0 "")
@@ -1055,7 +1055,7 @@
   (segment (start 105.8625 107.0375) (end 106.68 107.0375) (width 0.25) (layer F.Cu) (net 19))
   (segment (start 105.6 107.3) (end 105.8625 107.0375) (width 0.25) (layer F.Cu) (net 19))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 60512150) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 60512861) (hatch edge 0.508)
     (connect_pads (clearance 0.4))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.4) (thermal_bridge_width 0.4))
@@ -1070,7 +1070,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 6051214A) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 6051285E) (hatch edge 0.508)
     (connect_pads (clearance 0.4))
     (min_thickness 0.2)
     (fill yes (arc_segments 32) (thermal_gap 0.4) (thermal_bridge_width 0.25))

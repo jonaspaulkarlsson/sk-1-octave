@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "Casio SK-1 octave switch"
+Date "2021-03-23"
+Rev "1"
 Comp ""
 Comment1 ""
 Comment2 ""
