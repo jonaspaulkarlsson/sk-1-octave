@@ -8,13 +8,29 @@ Looking at the schematic in the service manual (http://www.burnkit2600.com/manua
 
 The tuning of the instrument is controlled by a variable capacitor, which controls the frequency of the LC clock oscillator. The idea is to replace the inverter in the original oscillator with a CMOS inverter IC, add a clock divider to drop the frequency by four (down two octaves) and a multiplexer to select either the original or the divided frequency.
 
+PCB area around the micro processor and LC oscillator circuit:
 ![SK-1 PCB](./pics/sk-1%20PCB.jpg)
+
+Original oscillator input signal:
 ![OSI pin signal](./pics/osi.jpg)
+
+Original oscillator output signal:
 ![OSO pin signal](./pics/oso.jpg)
 
 ## Circuit design
+The schematic and PCB was designed in KiCad.
+
+The schematic below shows the circuit:
 ![Octave switch schematic](./pics/schematic.png)
+
+The oscillator core consists of the existing inductcor and capacitors from the original circuit, but now connected to one part of U1, a 4069 hex CMOS inverter. The signal from the oscillator is divided by four by two stages from U2, a dual D flip-flop. Lastly, one of the original or divided down signals are selected by one channel of U3, a quad mux. The select input of the mux is connected to a switch that selects either the original frequency when the switch is closed, or the divided down frequency when the switch is open.
+
+The R2, R3, R4 and C1 network scales the output to roughly the same voltage range as the original clock signal. This is probably not necessary but the circuit was included just to be safe. In the end, C1 was excluded.
+
+The PCH is shown in the picture below:
 ![Octave switch PCB](./pics/octave%20switch%20PCB.png)
+
+All connections are made to test points around the edges for easy soldering.
 
 ## Installation
 
