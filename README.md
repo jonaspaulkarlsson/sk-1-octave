@@ -33,6 +33,9 @@ The PCH is shown in the picture below:
 All connections are made to test points around the edges for easy soldering.
 
 ## Installation
+1. Open upp the case place both halves upside down, exposing the main PCB.
+2. Mount the octave switch PCB witg double sided tape, hot glue or whatever you have at hand in the position shown in the picture ![SK1, case open](./pics/sk1_case_open.jpg)
+3. 
 
 ## Results
 The circuits works well and unlocks some of the potential of this instrument. I really like the cruncy atmospheric sound of the lower octaves.
