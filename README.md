@@ -46,3 +46,7 @@ Audio demos at [Soudcloud](https://soundcloud.com/exterm/sk-1-octave)
 The circuits works well and unlocks some of the potential of this instrument. I really like the cruncy atmospheric sound of the lower octaves.
 
 However there are some side effects (features?) due to the nature of this hack. Since the clock speed for the whole system is slowed down, _everything_ slows down. Rythms (nice and crunchy, but slow), portamento, vibrato, envelopes etc. It doesn't bother me too much, but it should be noted that the integration is not seamless.
+
+## Disclaimer
+1. Yes I know the soldering looks awful, I should probably redo it, but... meh.
+2. The SK-1 PCB is covered in sticky flux. I did clean it up around the area where I attached the octave switch PCB, but yeah, I know it looks nasty.
