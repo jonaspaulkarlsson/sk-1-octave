@@ -36,11 +36,13 @@ All connections are made to test points around the edges for easy soldering.
 1. Open upp the case place both halves upside down, exposing the main PCB.
 2. Mount the octave switch PCB witg double sided tape, hot glue or whatever you have at hand in the position shown in the picture ![SK-1, case open](./pics/sk1_case_open.jpg)
 3. Cut the traces going to the processor where indicated by the red lines in the picture, and scrape off the solder resist on the one going in under the corner of the IC: ![Cut traces](./pics/pcb_cut_traces.jpg)
-4. Solder wires to the octave switch PCB from the solder joints on the SK-1 PCB as shown in the picture. Solder in the OUT signal with as thin a wire as possible to minimize stress on the cut wire. ![Connecting PCB](./pics/sk1_octave_pcb_mouting.jpg)
+4. Solder wires to the octave switch PCB from the solder joints on the SK-1 PCB as shown in the picture. Solder in the OUT signal with as thin a wire as possible to minimize stress on the cut wire. Take care to leave the area close to the tuning inductor free from wires. ![Connecting PCB](./pics/sk1_octave_pcb_mouting.jpg)
 5. Mount a toggle swithch to some convenient place in the case, probaly the empty space next to the speaker is most convenient. Connect the switch with long twisted wires to the SW1 and SW2 pads. ![Mounting octave switch](./pics/sk1_octave_switch_mounting.jpg)
 6. Put your SK-1 back together and enjoy your extended note range!
 
 ## Results
+Audio demos at [Soudcloud](https://soundcloud.com/exterm/sk-1-octave)
+
 The circuits works well and unlocks some of the potential of this instrument. I really like the cruncy atmospheric sound of the lower octaves.
 
-However there are some side effects (feature?) due to the nature of this hack. Since the clock speed for the whole system is slowed down, _everything_ slows down. Rythms (nice and crunchy, but slow), portamento, vibrato, envelopes etc. It doesn't bother me too much, but it should be noted that the integration is notot seamless.
+However there are some side effects (features?) due to the nature of this hack. Since the clock speed for the whole system is slowed down, _everything_ slows down. Rythms (nice and crunchy, but slow), portamento, vibrato, envelopes etc. It doesn't bother me too much, but it should be noted that the integration is not seamless.
