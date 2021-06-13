@@ -40,6 +40,8 @@ All connections are made to test points around the edges for easy soldering.
 5. Mount a toggle swithch to some convenient place in the case, probaly the empty space next to the speaker is most convenient. Connect the switch with long twisted wires to the SW1 and SW2 pads. ![Mounting octave switch](./pics/sk1_octave_switch_mounting.jpg)
 6. Put your SK-1 back together and enjoy your extended note range!
 
+It should be noted that the SK-1 uses a weird form of negative logic, so what is connected to GND the octave switch PCB is actually the negative supply rail, and what is connected to +5V is ground. What matters is that in the end is that both PCBs sees signals that are in the correct voltage ranges for their respective supplies.
+
 ## Results
 Audio demos at [Soudcloud](https://soundcloud.com/exterm/sk-1-octave)
 
