@@ -49,6 +49,9 @@ The circuit works well and unlocks some of the potential of this instrument. I r
 
 However there are some side effects (features?) due to the nature of this hack. Since the clock speed for the whole system is slowed down, _everything_ slows down. Rythms (nice and crunchy, but slow), portamento, vibrato, envelopes etc. It doesn't bother me too much, but it should be noted that the integration is not seamless.
 
-## Disclaimer
-1. Yes I know the soldering looks awful, I should probably redo it, but... meh.
-2. The SK-1 PCB is covered in sticky flux. I did clean it up around the area where I attached the octave switch PCB, but yeah, I know it looks nasty.
+## Retrospective
+1. I thought I ordered 1mm thick PCBs, but apparently it was the standard 1.6mm. I wanted to keep as much clearance to the case as possible, not knowing exactly how much room there was, but 1.6mm worked out fine.
+2. The black solder resist fom JLCPCB was quite fragile and chipped away in one place. I will go for the standard green in the future.
+3. It would have been cool to design the PCB around the solder in poisitions on the SK-1 PCB so that it could be attached directly with castellated edges. It would have been a fun exercise. Maybe for another project.
+4. Yes I know the soldering looks awful, I should probably redo it, but... meh.
+5. The SK-1 PCB is covered in sticky flux. I did clean it up around the area where I attached the octave switch PCB, but yeah, I know it looks nasty.
